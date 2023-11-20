@@ -1,11 +1,18 @@
+package com.senac.util;
+
 import java.util.ArrayList;
 import java.util.List;
+import com.senac.factory.FabricaEletronico;
+import com.senac.factory.FabricaLivros;
+import com.senac.factory.FabricaProduto;
+import com.senac.factory.FabricaRoupa;
+import com.senac.model.Produto;
 
 public class InicializadorLoja {
-    public static List<Produto> inicializarProdutos() {
+    public  List<Produto> inicializarProdutos() {
         List<Produto> produtos = new ArrayList<>();
 
-        // Adiciona alguns produtos de cada categoria à lista
+
         FabricaProduto fabricaLivro = new FabricaLivros();
         produtos.add(fabricaLivro.criarProduto("Aventuras Fantásticas 1", 29.99));
         produtos.add(fabricaLivro.criarProduto("Aventuras Fantásticas 2", 29.99));

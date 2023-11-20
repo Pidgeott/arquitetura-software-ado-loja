@@ -1,3 +1,5 @@
+package com.senac.model;
+
 public class ProdutoLivro implements Produto{
     private String nome;
     private Double preco;

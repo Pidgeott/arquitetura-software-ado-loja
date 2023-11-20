@@ -1,13 +1,17 @@
-public class ProdutoEletronico implements Produto {
+package com.senac.model;
+
+
+
+public class ProdutoRoupa implements Produto{
     private String nome;
     private Double preco;
 
-    public ProdutoEletronico(String nome, Double preco) {
+    public ProdutoRoupa(String nome, Double preco) {
         this.nome = nome;
         this.preco = preco;
     }
 
-    public ProdutoEletronico() {
+    public ProdutoRoupa() {
 
     }
 
@@ -29,6 +33,6 @@ public class ProdutoEletronico implements Produto {
 
     @Override
     public void exibirDetalhes() {
-        System.out.println("Produto Eletrônico - Nome: " + nome + ", Valor: $" + preco);
+        System.out.println("Produto Roupa - Nome: " + nome + ", Valor: $" + preco);
     }
 }
