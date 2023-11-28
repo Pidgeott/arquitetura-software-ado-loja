@@ -24,7 +24,8 @@ public class Menu {
 	    System.out.println("2 - Lista de Livros");
 	    System.out.println("3 - Lista de Roupas");
 	    System.out.println("4 - Carrinho");
-	    System.out.println("5 - Sair");
+		System.out.println("5 - Administrador");
+	    System.out.println("6 - Sair");
 	    System.out.println("--------------------------------------------------");
 	    System.out.print("Escolha uma opção: ");
 	}
