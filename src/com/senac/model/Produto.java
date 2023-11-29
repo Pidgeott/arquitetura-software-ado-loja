@@ -7,4 +7,5 @@ public interface Produto {
     Double getPreco();
 
 	String getNome();
+
 }
